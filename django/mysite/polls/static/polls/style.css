@@ -1,0 +1,24 @@
+li a {
+    color: green;
+}
+
+
+body {
+    background: white url("images/background.gif");
+    text-align: center;
+}
+
+
+li a:hover{
+	color: white;
+	size: 100px;
+
+}
+
+li:hovor{
+	color: white;
+}
+
+.ss{
+	color: white;
+}
