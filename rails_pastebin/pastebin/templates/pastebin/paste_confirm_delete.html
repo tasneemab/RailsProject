@@ -1,0 +1,8 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'pastebin/style.css' %}">
+<h1 class = "ss">Really delete paste {{ object }}?</h1>
+<h2 class = "ss">This action cannot be undone</h2>
+<form action="{% url 'pastebin:paste_delete' object.id %}" method="POST">
+    {% csrf_token %}
+    <input type="submit" value="Delete">
+</form>

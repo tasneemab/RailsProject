@@ -1,0 +1,39 @@
+link a {
+    color: green;
+}
+
+
+body {
+    background: lightblue;
+    text-align: center;
+}
+
+
+link a:hover{
+	color: white;
+	size: 100px;
+
+}
+
+
+
+link:hovor{
+	color: white;
+}
+
+.ss:hover{
+	color: white;
+}
+
+
+a:hover{
+	color: white;
+	size: 100px;
+
+}
+
+
+
+li:hovor{
+	color: white;
+}

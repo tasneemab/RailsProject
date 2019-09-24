@@ -1,0 +1,15 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'pastebin/style.css' %}">
+
+<h1 class = "ss">Welcome to Rail's Pastebin</h1>
+<h2 class = "ss">Create new Paste</h2>
+<form action="" method="POST">
+    {% csrf_token %}
+    <table>
+        {{ form.as_table }}
+    </table>
+    <input type="submit" name="create" value="Create">
+</form>
+
+<a href="{% url 'pastebin:paste_list' %}">View All</a>
